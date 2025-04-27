@@ -3,7 +3,8 @@
  * Add Weglot language options to header.
  *
  * Makes a Weglot API call for available languages, adds a dropdown to the
- * header, and adds accessibility helpers to the dropdown.
+ * header, and adds accessibility helpers to the dropdown. Remedies lack of
+ * ARIA in weglot chooser. Relies on ally.js to improve some accessibility.
  *
  * @see web/themes/custom/dcpl/templates/menu/menu--topbar.html.twig
  * @see https://developers.weglot.com/javascript/javascript
